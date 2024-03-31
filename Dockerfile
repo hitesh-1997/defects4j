@@ -52,7 +52,6 @@ ENV PATH="/defects4j/framework/bin:${PATH}"
 
 # ----------- Step 4. Install Defects4J's dependencies: ---------
 RUN pip3 install -r requirements.txt
-RUN python3 setup.py
-RUN chmod -R 777 /tmp/repos
 
 #--------------
+ENTRYPOINT ["/bin/sh"]
