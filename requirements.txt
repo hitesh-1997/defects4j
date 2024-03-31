@@ -1,0 +1,4 @@
+tqdm
+tree-sitter
+numpy
+pandas
